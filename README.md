@@ -60,7 +60,7 @@ Use the [TUTORIAL_TEMPLATE](./tutorials/TUTORIAL_TEMPLATE.md) and [zksync-cli-qu
 
 - Clone this repo.
 - Create a new branch and [add your tutorial following the guidelines](#tutorial-guidelines).
-- Make sure [your tutorial follows the requirements](#tutorial-requirements)
+- Make sure [your tutorial follows the requirements](#tutorial-requirements).
 - Create a pull request.
 
 ## Linting, Formatting, and Spell Check

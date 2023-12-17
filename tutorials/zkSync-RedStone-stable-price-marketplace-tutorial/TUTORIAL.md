@@ -72,7 +72,7 @@ function buy(uint256 orderId) external payable {}
 
 ```
 
-The implementation is quite straightforward, so we won't describe it here. You can check the full contract code in the [contracts/Marketplace.sol.](contracts/Marketplace.sol)
+The implementation is quite straightforward, so we won't describe it here. You can check the full contract code in the [contracts/Marketplace.sol.](contracts/Marketplace.sol).
 
 #### StableMarketplace.sol
 
@@ -110,11 +110,11 @@ yarn install
 
 #### 3. Run local zkSync node
 
-You can run zkSync node in dockerized setup by following instructions presented [here](https://era.zksync.io/docs/tools/testing/dockerized-testing.html)
+You can run zkSync node in dockerized setup by following instructions presented [here](https://era.zksync.io/docs/tools/testing/dockerized-testing.html).
 
 ### Get familiar with the code
 
-If you are not familiar with the code yet, please read [implementation description](#🧑‍💻-implementation)
+If you are not familiar with the code yet, please read [implementation description](#🧑‍💻-implementation).
 
 ### Integrate with RedStone Oracles
 
@@ -195,7 +195,7 @@ async function buy(orderId: string) {
 
 #### 1. Check if tests pass
 
-Tests work only when integration with RedStone oracles is ready
+Tests work only when integration with RedStone oracles is ready.
 
 ```sh
 yarn test
@@ -283,7 +283,7 @@ RedStone offers a radically different design of Oracles catering to the needs of
 - Use token incentives to motivate data providers to maintain data integrity and uninterrupted service
 - Leverage the Arweave blockchain as cheap and permanent storage for archiving Oracle data and maintaining data providers' accountability
 
-To learn more about RedStone oracles design check out the [RedStone docs.](https://docs.redstone.finance/docs/introduction)
+To learn more about RedStone oracles design check out the [RedStone docs.](https://docs.redstone.finance/docs/introduction).
 
 ## 🗝️ Key facts
 
@@ -298,7 +298,7 @@ To learn more about RedStone oracles design check out the [RedStone docs.](https
 
 Thanks to our innovative architecture, we offer more than one thousand of pricing data feeds, including tokens, stocks, ETFs, commodities, and much more for a fraction of regular Oracles integration costs.
 
-You can check available assets and data providers using [app.redstone.finance.](https://app.redstone.finance/)
+You can check available assets and data providers using [app.redstone.finance.](https://app.redstone.finance/).
 
 ## 🔥 How to use RedStone?
 
@@ -327,7 +327,7 @@ TLDR; You need to do 2 things:
 
 ### 1. Adjust your smart contracts
 
-You need to apply a minimum change to the source code to enable smart contract to access data. Your contract needs to extend one of our custom base contracts, which can be found [here.](https://github.com/redstone-finance/redstone-oracles-monorepo/tree/main/packages/evm-connector/contracts/data-services)
+You need to apply a minimum change to the source code to enable smart contract to access data. Your contract needs to extend one of our custom base contracts, which can be found [here.](https://github.com/redstone-finance/redstone-oracles-monorepo/tree/main/packages/evm-connector/contracts/data-services).
 
 We strongly recommend having some upgradeability mechanism for your contracts (it can be based on multisig, DAO, or anything else). This way, you can quickly switch to the latest trusted data providers in case of changes or problems with the current providers.
 
